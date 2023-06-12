@@ -8,7 +8,12 @@ import ProductList from "./pages/ProductList"
 
 const App = () => {
   return (
-    <Navbar/>
+    <div>
+    <Home/>
+    <Announcement/>
+    <Slider/>
+    <ProductList/>
+    </div>
   )
 }
 

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Announcement from '../components/Announcement';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
+import Products from '../components/Products';
 
 const Container = styled.div``;
 
@@ -78,7 +79,7 @@ const ProductList = () => {
           </Select>
         </Filter>
       </FilterContainer>
-      
+      <Products/>
       <Newsletter/>
       <Footer/>
     </Container>

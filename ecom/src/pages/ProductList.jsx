@@ -5,7 +5,7 @@ import Announcement from '../components/Announcement';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import Products from '../components/Products';
-
+import { mobile } from '../responsive';
 const Container = styled.div``;
 
 const Title = styled.h1`

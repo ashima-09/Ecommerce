@@ -42,7 +42,7 @@ router.post("/login", async (req,res) => {
 
         const accessToken = jwt.sign(
             {
-                idx: user._id,
+                id: user._id,
                 isAdmin: user.isAdmin
             },
             process.env.JWT_SEC,

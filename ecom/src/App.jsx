@@ -10,7 +10,7 @@ import Cart from './pages/Cart'
 
 const App = () => {
   return (
-    <div>
+    <div> 
       <Cart/>
     </div>
   )
